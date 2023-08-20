@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Imprimir Relatório</title>
+</head>
+<body>
+    <h1>Imprimir Relatório</h1>
+    <button id="imprimirButton">Imprimir Relatório</button>
+
+    <script>
+        document.getElementById("imprimirButton").addEventListener("click", function() {
+        // Abre a página "gerar_pdf.php" em uma nova aba
+        const newWindow = window.open("gerar_pdf.php", "_blank");
+        newWindow.focus();
+    });
+    </script>
+</body>
+</html>
