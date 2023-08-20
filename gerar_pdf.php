@@ -32,10 +32,10 @@ $html = "
 	th { 
             padding:0px;
             text-align: left;
-            font-size: 10px;
+            font-size: 7px;
 	}
     td { 
-            font-size: 8px;
+            font-size: 7px;
 	}
     tfoot{text-align: center;}
 
